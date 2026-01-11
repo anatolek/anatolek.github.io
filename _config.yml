@@ -121,7 +121,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: right
-        title: "AWS Certified Solutions Architect – Associate)"
+        title: "CKA: Certified Kubernetes Administrator"
+        link: https://www.credly.com/badges/3f191754-f3e7-4de1-b2c4-2f34e7cdbbfa
+        link_text: credly link
+        caption: January 10, 2026 – January 11, 2028
+        description: |
+          <img src="images/CKA.png" alt="Certified-Kubernetes-Administrator" width="200"/>
+      - layout: right
+        title: "AWS Certified Solutions Architect – Associate"
         link: https://www.credly.com/badges/281f50c8-60a8-4fc2-8d6d-e9bb46ff9900
         link_text: credly link
         caption: March 28, 2023 – March 28, 2026
