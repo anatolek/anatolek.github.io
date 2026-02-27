@@ -73,7 +73,7 @@ content:
         link: gotransverse.com
         # link_text: boringcompany.com
         sub_title: DevOps Engineer
-        caption: 2018 - Present
+        caption: 2018 - 2026
         quote: >
           Project aimed to replace a legacy billing system with a modern, agile solution capable of supporting complex, usage-based pricing models and global currencies
         description: | # this will include new lines to allow paragraphs
@@ -121,12 +121,12 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: right
-        title: "CKA: Certified Kubernetes Administrator"
-        link: https://www.credly.com/badges/3f191754-f3e7-4de1-b2c4-2f34e7cdbbfa
+        title: "CKS: Certified Kubernetes Security Specialist"
+        link: https://www.credly.com/badges/b4098cc6-7840-4461-bcd6-59308edf2b85
         link_text: credly link
-        caption: January 10, 2026 – January 11, 2028
+        caption: February 14, 2026 – February 15, 2028
         description: |
-          <img src="images/CKA.png" alt="Certified-Kubernetes-Administrator" width="200"/>
+          <img src="images/CKS.png" alt="Certified-Kubernetes-Security-Specialist" width="200"/>
       - layout: right
         title: "AWS Certified Solutions Architect – Associate"
         link: https://www.credly.com/badges/281f50c8-60a8-4fc2-8d6d-e9bb46ff9900
