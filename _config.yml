@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Anatolii Pedchenko
-title: DevOps Engineer
+title: Senior DevOps Engineer
 email: anatolek@ukr.net
 #website: www.github.com/sproogen/resume-theme
 
@@ -45,7 +45,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Have 7+ years of hands-on experience in DevOps, with a strong emphasis on automation, infrastructure as code, and CI/CD pipelines.
+  Have 8+ years of hands-on experience in DevOps, with a strong emphasis on automation, infrastructure as code, and CI/CD pipelines.
   My detail-oriented and methodical approach to problem-solving allows me to consistently deliver high-quality results.
   By thorough analysis, I execute tasks carefully considering short- and long-term perspectives. 
   With a proven ability to lead and manage small technical teams, I am focused on ensuring project alignment and timely delivery.
@@ -55,23 +55,36 @@ content:
   - title: Skills
     layout: text
     content: |
-      - **Cloud:** AWS (VPC, EC2, S3, RDS, EKS, ECS, MSK, IAM, Route53, CloudWatch, ElastiCache, CloudTrail, etc.)
+      - **Cloud:** AWS (VPC, EC2, S3, RDS, EKS, ECS, MSK, IAM, Route53, CloudWatch, ElastiCache, CloudTrail, etc.), OpenStack (Heat)
       - **Infrastructure:** HashiCorp Terraform, HashiCorp Vault, HashiCorp Packer
       - **Containerization & Orchestration:** Kubernetes, Helm, Docker, Rancher
       - **Scripting & Programming:** Python, Bash
       - **Configuration Management:** Red Hat Ansible, Ansible Molecule
-      - **CI/CD & DevOps:** Jenkins, Git (GitLab/GitHub), JFrog Artifactory, Liquibase
+      - **CI/CD & DevOps:** Jenkins, GitHub Actions, Git (GitLab/GitHub), JFrog Artifactory, Liquibase
       - **Databases & Data Platforms:** MariaDB, PostgreSQL, Snowflake, Redis, Apache Kafka
-      - **Monitoring & Logging:** Logic Monitor, SumoLogic, ELK Stack
+      - **Monitoring & Logging:** Prometheus, Grafana, Splunk, PagerDuty, Logic Monitor, Sumo Logic, ELK Stack
       - **Project Management & Collaboration:** Jira, Confluence, Agile (Scrum, Kanban)
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: GoTransverse Billing Platform
-        link: gotransverse.com
-        # link_text: boringcompany.com
+        title: Cloud Security Platform
+        sub_title: Senior DevOps Engineer
+        caption: 2026 - Present
+        quote: >
+          Cloud-delivered Security Service Edge platform providing secure access to private applications, SaaS applications, and the internet
+        description: |
+            **Responsibilities:**
+            - Operating and evolving production infrastructure for a globally distributed platform across AWS and OpenStack.
+            - Designing and delivering infrastructure migrations and automated deployments using Infrastructure as Code and CI/CD workflows.
+            - Leading production incident investigation, recovery, and capacity validation across application and infrastructure layers.
+            - Improving observability and operational readiness through alerting rules, responder runbooks, health checks, and safe rollout and rollback procedures.
+            - Collaborating with development, security, platform, and operations teams to deliver reliable changes across environments.
+
+            **Tools & Technologies:** *AWS, OpenStack Heat, Terraform, Packer, Ansible, Kubernetes, Helm, GitHub Actions, Prometheus, Grafana, Splunk, PagerDuty*
+      - layout: left
+        title: Advanced Billing Platform
         sub_title: DevOps Engineer
         caption: 2018 - 2026
         quote: >
@@ -127,6 +140,34 @@ content:
         caption: February 14, 2026 – February 15, 2028
         description: |
           <img src="images/CKS.png" alt="Certified-Kubernetes-Security-Specialist" width="200"/>
+      - layout: right
+        title: "KCSA: Kubernetes and Cloud Native Security Associate"
+        link: https://www.credly.com/badges/dcf2936f-202c-41b7-94f8-9b250baec5b8
+        link_text: credly link
+        caption: January 24, 2026 – February 14, 2028
+        description: |
+          <img src="images/KCSA.png" alt="Kubernetes-and-Cloud-Native-Security-Associate" width="200"/>
+      - layout: right
+        title: "CKAD: Certified Kubernetes Application Developer"
+        link: https://www.credly.com/badges/1b6d0716-b08d-4a19-a61f-b9dd5e7460b4
+        link_text: credly link
+        caption: January 17, 2026 – January 18, 2028
+        description: |
+          <img src="images/CKAD.png" alt="Certified-Kubernetes-Application-Developer" width="200"/>
+      - layout: right
+        title: "CKA: Certified Kubernetes Administrator"
+        link: https://www.credly.com/badges/3f191754-f3e7-4de1-b2c4-2f34e7cdbbfa
+        link_text: credly link
+        caption: January 10, 2026 – January 11, 2028
+        description: |
+          <img src="images/CKA.png" alt="Certified-Kubernetes-Administrator" width="200"/>
+      - layout: right
+        title: "KCNA: Kubernetes and Cloud Native Associate"
+        link: https://www.credly.com/badges/cd61820a-e6b6-480c-a823-139e8c3bd68e
+        link_text: credly link
+        caption: December 8, 2025 – January 17, 2028
+        description: |
+          <img src="images/KCNA.png" alt="Kubernetes-and-Cloud-Native-Associate" width="200"/>
       - layout: right
         title: "AWS Certified Solutions Architect – Associate"
         link: https://www.credly.com/badges/281f50c8-60a8-4fc2-8d6d-e9bb46ff9900
